@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1010106886057",
+    "firebase_url": "https://snap-7e865.firebaseio.com",
+    "project_id": "snap-7e865",
+    "storage_bucket": "snap-7e865.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010106886057:android:eb3192df1b9d9ba82c06b8",
+        "android_client_info": {
+          "package_name": "com.virus.snap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010106886057-cgu57ds5fnbr53unlditbv3ad805p5hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCgulr7R_vY-R6XJp_qXINneXLelBLSBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010106886057-cgu57ds5fnbr53unlditbv3ad805p5hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
