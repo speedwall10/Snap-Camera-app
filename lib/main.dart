@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:snap/HomePage.dart';
 import 'package:snap/StartPage.dart';
+import 'package:snap/photofilter.dart';
 
 void main() => runApp(MyApp());
 

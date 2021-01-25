@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:snap/imageLabellerClass.dart';
+import 'package:snap/playground.dart';
+import 'UIPage.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -108,19 +110,18 @@ class ReusableCard extends StatelessWidget {
           onPressed: () {
             print(version);
             if (version == 'face') {
-//              Navigator.push(
-//                  context, MaterialPageRoute(builder: (context) => FacePage()));
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => FacePage()));
             } else if (version == 'Object') {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => ObjectLabeller()));
             } else {
-//              Navigator.push(context,
-//                  MaterialPageRoute(builder: (context) => TextRecog()));
-//            }
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => TextRecog()));
             }
           },
           //   color: colour,
-//          child: Text(git
+//          child: Text(
 //            '$text',
 //            style: TextStyle(
 //                fontFamily: 'Times new Roman',
