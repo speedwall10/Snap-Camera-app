@@ -56,15 +56,15 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-//                  ReusableCard(
-//                      'face',
-//                      '1.jpeg',
-//                      Colors.orange,
-//                      Icon(
-//                        Icons.tag_faces,
-//                        color: Colors.orange,
-//                        size: 100,
-//                      )),
+                  ReusableCard(
+                      'face',
+                      '1.jpeg',
+                      Colors.orange,
+                      Icon(
+                        Icons.tag_faces,
+                        color: Colors.orange,
+                        size: 100,
+                      )),
                   ReusableCard(
                       'Object',
                       '3.jpg',
@@ -74,16 +74,16 @@ class _HomeState extends State<Home> {
                         size: 100,
                         // color: Colors.blue,
                       )),
-//                  ReusableCard(
-//                      '',
-//                      'logo.png',
-//                      Colors.green,
-//                      Icon(
-//                        Icons.text_format,
-//                        //semanticLabel: "sa",
-//                        color: Colors.green,
-//                        size: 100,
-//                      ))
+                  ReusableCard(
+                      '',
+                      'logo.png',
+                      Colors.green,
+                      Icon(
+                        Icons.text_format,
+                        //semanticLabel: "sa",
+                        color: Colors.green,
+                        size: 100,
+                      ))
                 ],
               ),
             ),
